@@ -25,35 +25,3 @@ function App() {
 }
 
 export default App;
-// import './App.css';
-
-// import React, {useState} from 'react';
-
-// function App() {
-//   const [state, setState] = useState({count :4 , color:'blue'});
-//   const count = state.count
-//   const color = state.color
-//   function decreament() {
-//     setState(prevState => {
-//       return {...prevState ,count:prevState.count-1 }
-//     })
-//   }
-//   function increament() {
-//     setState(prevState => {
-//       return {...prevState,
-//         count:prevState.count+1
-//       }
-//     })
-//   }
-
-//   return (
-//     <div>
-//       <button onClick={decreament}>-</button>
-//       <span>{count}</span>
-//       <span>{color}</span>
-//       <button onClick={increament}>+</button>
-//     </div>
-//   );
-// }
-
-// export default App;
